@@ -14,7 +14,7 @@ export function App() {
       </header>
       <main>
         <Switch>
-          <Route exact path="/movie/"><MovieDetails/></Route>
+          <Route exact path="/movies/:movieId"><MovieDetails/></Route>
           <Route path="/"><LandingPage/></Route>
         </Switch>
       </main>
