@@ -1,5 +1,6 @@
 import styles from "./MovieCard.module.css";
 import { Link } from "react-router-dom";
+// Prueba
 
 export function MovieCard({ movie }) {
   const imageUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
